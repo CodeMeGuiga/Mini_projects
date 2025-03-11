@@ -8,7 +8,7 @@ The purpose of this folder is to showcase my development skills, creativity, and
 
 ## Projects Included
 
-- **[Project Name 1]**: A brief description of the project (e.g., a sentiment analysis model using Python and Scikit-learn).
+- **Summarizing drugs description using NLP**: This project applies Natural Language Processing (NLP) techniques to analyze and process drug-related text data. The dataset contains information about various drugs and their medical uses.
 - **[Project Name 2]**: A brief description of the project (e.g., a web scraper built with BeautifulSoup to collect data from websites).
 - **[Project Name 3]**: A brief description of the project (e.g., a basic image classifier using TensorFlow and Keras).
 
