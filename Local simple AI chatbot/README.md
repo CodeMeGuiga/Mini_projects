@@ -1,8 +1,8 @@
-#Simple AI Chatbot using ctransformers
+# Simple AI Chatbot using ctransformers
 
 This project is a simple chatbot powered by the Llama-2-7B model using the ctransformers library. It maintains a short conversation history to provide context and ensure concise, relevant responses.
 
-##Features
+## Features
 
 Loads the Llama-2-7B-Chat-GGUF model using ctransformers.
 
