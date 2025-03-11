@@ -74,31 +74,31 @@ You can modify the chatbot's behavior according to your needs:
 - If performance is slow, ensure your hardware meets the requirements for running large language models efficiently.
 
 ## Future Plans:
-- 1. Optimizing for Embedded Systems:
+- Optimizing for Embedded Systems:
 
 In future versions, I plan to explore running the chatbot on microcontrollers such as Arduino, STM32, and Raspberry Pi. This will involve optimizing the Llama-2-7B model for the limited resources of embedded systems using techniques like model quantization and pruning to reduce size while maintaining performance.
 
-- 2.Multi-turn Conversations:
+- Multi-turn Conversations:
 
 Currently, the chatbot maintains a history of only the last three exchanges. I plan to enhance this feature by implementing a dynamic sliding window mechanism for conversation history, allowing longer and more natural conversations while optimizing system resources.
 
-- 3.Integration with Voice Assistants:
+- Integration with Voice Assistants:
 
 In the future, I intend to integrate speech recognition and text-to-speech capabilities, allowing users to interact with the chatbot through voice. This will involve using libraries like `speech_recognition` for input and `pyttsx3` for speech synthesis.
 
-- 4.Multi-Model Integration:
+- Multi-Model Integration:
 
 The chatbot can be further enhanced by integrating other models, such as GPT, to handle more specialized tasks (e.g., weather updates, recommendations, calculations) alongside the general conversational AI model.
 
-- 5. Sentiment Analysis:
+- Sentiment Analysis:
 
 I'll work on incorporating sentiment analysis into the chatbot, enabling it to respond more empathetically based on the user’s emotional state. For example, adjusting the tone of responses based on detected mood (happy, sad, frustrated, etc.).
 
-- 6. Language Translation:
+- Language Translation:
 
 Adding a language translation feature is on the roadmap. This will allow the chatbot to interact in multiple languages, making it more accessible to a global audience.
 
-- 7. Personalization:
+- Personalization:
 
 A future version will allow the chatbot to remember user preferences, names, and other details to provide more personalized interactions over time.
 
