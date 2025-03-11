@@ -9,8 +9,7 @@ The purpose of this folder is to showcase my development skills, creativity, and
 ## Projects Included
 
 - **Summarizing drugs description using NLP**: This project applies Natural Language Processing (NLP) techniques to analyze and process drug-related text data. The dataset contains information about various drugs and their medical uses.
-- **[Project Name 2]**: A brief description of the project (e.g., a web scraper built with BeautifulSoup to collect data from websites).
-- **[Project Name 3]**: A brief description of the project (e.g., a basic image classifier using TensorFlow and Keras).
+- **Local simple AI chatbot**: A simple AI chatbot powered by the Llama-2-7B model using the ctransformers library, designed to maintain contextual conversations and provide concise, relevant responses.
 
 Each project is independent and contains its own set of instructions for setup, dependencies, and usage.
 
