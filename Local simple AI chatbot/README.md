@@ -4,38 +4,38 @@ This project is a simple chatbot powered by the Llama-2-7B model using the ctran
 
 ## Features
 
-Loads the Llama-2-7B-Chat-GGUF model using ctransformers.
+- Loads the Llama-2-7B-Chat-GGUF model using ctransformers.
 
-Maintains a conversation history, keeping track of the last three exchanges to provide better contextual responses.
+- Maintains a conversation history, keeping track of the last three exchanges to provide better contextual responses.
 
-Ensures responses are short, relevant, and filtered to avoid nonsensical outputs.
+- Ensures responses are short, relevant, and filtered to avoid nonsensical outputs.
 
-Runs in an interactive loop, allowing the user to chat with the AI until they decide to exit.
+- Runs in an interactive loop, allowing the user to chat with the AI until they decide to exit.
 
-##Requirements
+## Requirements
 
 To use this chatbot, ensure you have the following:
 
-Python 3.x installed on your system.
+- Python 3.x installed on your system.
 
-The ctransformers library installed.
+- The ctransformers library installed.
 
-A compatible Llama-2-7B-Chat-GGUF model file downloaded from Hugging Face or another trusted source.
+- A compatible Llama-2-7B-Chat-GGUF model file downloaded from Hugging Face or another trusted source.
 
-##Installation
+## Installation
 
-Install the required library:
+### 1. Install the required library:
 ```bash
 pip install ctransformers
 ```
 
-Download the model file:
+### 2. Download the model file:
 You need to download the Llama-2-7B-Chat-GGUF model from Hugging Face or any other source that provides GGUF model files.
 
-Ensure the model file path is correct:
+### 3. Ensure the model file path is correct:
 Update the script if necessary to match the exact model filename.
 
-Usage
+## Usage
 
 To run the chatbot, execute the script:
 ```bash
@@ -44,7 +44,7 @@ python chatbot.py
 Once started, the chatbot will engage in an interactive conversation where you can type in your queries, and the AI will respond accordingly.
 To exit the chatbot, type any of the following: exit, quit, or bye.
 
-Example Conversation
+## Example Conversation
 ```bash
 You: Hello!
 AI: Hi! How can I help you today?
@@ -55,7 +55,7 @@ AI: The capital of France is Paris.
 You: exit
 AI: Goodbye!
 ```
-Customization Options
+## Customization Options
 
 You can modify the chatbot's behavior according to your needs:
 
@@ -65,7 +65,7 @@ Adjust conversation history length: The script keeps only the last three exchang
 
 Fine-tune response filtering: The script filters out responses that are too short or nonsensical. You can modify the filtering logic if needed.
 
-##Troubleshooting
+## Troubleshooting
 
 If you get an error related to loading the model, ensure the model file name and path are correct.
 
