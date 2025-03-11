@@ -1,4 +1,4 @@
-from ctransformers import AutoModelForCausalLM # type: ignore
+from ctransformers import AutoModelForCausalLM 
 
 
 llm = AutoModelForCausalLM.from_pretrained(
